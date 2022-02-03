@@ -28,3 +28,12 @@ npm start
 > **All Post** : http://localhost:3000/posts
 
 > **Get Single Post** : http://localhost:3000/posts/41
+
+## Screenshot of accessing Login API and Posts Api
+1. Postman Login API
+
+<img src="https://user-images.githubusercontent.com/46344128/152260004-fe788c4c-cac7-483c-95b6-7fea3a68048d.png" width="800">
+
+2. Posts Api
+
+<img src="https://user-images.githubusercontent.com/46344128/152260020-56af912c-c086-463f-b7be-30fb301ea3c3.png" width="800">
