@@ -29,6 +29,16 @@ npm start
 
 > **Get Single Post** : http://localhost:3000/posts/41
 
+
+## Server Deployed API URL // may not accessible in future due to free account
+
+> **Login** : https://dinotest-swetang.herokuapp.com/login
+
+> **All Post** : https://dinotest-swetang.herokuapp.com/posts
+
+> **Get Single Post** : https://dinotest-swetang.herokuapp.com/{id} // 41
+
+
 ## Screenshot of accessing Login API and Posts Api
 1. Postman Login API
 
