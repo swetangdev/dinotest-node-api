@@ -71,6 +71,10 @@ app.get("/", authGuard, (req, res) => {
     res.json({ message: "Hello from server!" });
 });
 
+app.get("/login", authGuard, (req, res) => {
+    res.render('/');
+});
+
 // posts route to get posts from dinotest wpengine api
 app.get("/posts", authGuard, (req, res) => {
   

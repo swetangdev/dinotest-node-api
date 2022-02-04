@@ -5,7 +5,7 @@ const messages = {
             invalidCredential: 'Please enter valid credentials. Demo => Username: admin Password: admin123',
         },
     authMsg : {
-        tokenErr : 'A token is required for authentication',
+        tokenErr : 'A token is required for authentication. Login required to get the token.',
         invalidToken : 'Token is invalid or expired. Please do login again for fresh token. Token expire time is 2 hour once generated.',
     }
 }
