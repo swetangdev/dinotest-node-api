@@ -72,7 +72,7 @@ app.get("/", authGuard, (req, res) => {
 });
 
 // posts route to get posts from dinotest wpengine api
-app.get("/posts", (req, res) => {
+app.get("/posts", authGuard, (req, res) => {
   
     axios.get(apiConstant.url.postsURL)
         .then(resp => {
@@ -85,7 +85,7 @@ app.get("/posts", (req, res) => {
 });
 
 // posts route with id to get post by id from dinotest wpengine api
-app.get("/posts/:id", (req, res) => {
+app.get("/posts/:id", authGuard, (req, res) => {
 
     axios.get(apiConstant.url.postsURL+req.params.id)
         .then(resp => {
